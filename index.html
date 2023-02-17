@@ -8,6 +8,26 @@
     <title>Decisive game</title>
   </head>
   <body>
+    <section>
+      <button class="show-modal">How to play 🤔</button>
+
+      <div class="modal hidden-box">
+        <button class="close-modal">&times;</button>
+        <h1 class="tuto-title">Decisive game tutorial 🎲</h1>
+        <p class="tuto-paragraph">
+          * Both Player 1 and 2 Will roll the dice with the same button called ("🎲 Roll Dice")
+          😶 * A Random value will be generated from 1-6. The player can see
+          there number in both dice and in the current value section. * Here is
+          the Fun part 🥸. If the player get one! then he won't get any point's
+          and automatically switch's to other player. All the previously gained
+          point's will be lost without Adding it to the main. * A player can hold the value before that happens 🤩 * A player must make a decision whether he will hold it to save the day, or make more point's with risking of losing
+          all points in the current point's.
+        </p>
+      </div>
+      <div class="overlay hidden-box"></div>
+    </section>
+
+    <!-- Game start -->
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
