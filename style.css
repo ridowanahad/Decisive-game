@@ -24,7 +24,8 @@ body {
 
 /* LAYOUT */
 main {
-  position: relative;
+  position: absolute;
+  bottom: 4.5rem;
   width: 100rem;
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
@@ -187,7 +188,7 @@ main {
   border-radius: 10rem;
   cursor: pointer;
   position: absolute;
-  top: -4.4rem;
+  top: -3.7rem;
   right: 53rem;
 }
 
